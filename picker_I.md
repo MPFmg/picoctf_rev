@@ -6,7 +6,7 @@ So, the program will print a string, then it'll ask for our input, save it on th
 
 Inspecting the code, there are a few functions, but this one is clearly interesting:
 
-![win](picker_I_2.png)
+![win](img/picker_I_2.png)
 
 This function will look for a "flag.txt" file on the same directory, read it's content and print each character in hex. 
 After creating a flag file, with the string "flag{mock_flag}", I execute the binary, and pass the argument "win". This is the output:
